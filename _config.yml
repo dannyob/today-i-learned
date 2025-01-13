@@ -1,10 +1,11 @@
-title: Danny O'Brien's Today I Learned
+title: TIL
 author: Danny O'Brien <danny@spesh.com>
-theme: jekyll-theme-minimal
+theme: jekyll-theme-modernist
 
 collections:
   tils:
     output: true
+    permalink: /:collection/:name
 
 social-network-links:
   email: "danny@spesh.com"
