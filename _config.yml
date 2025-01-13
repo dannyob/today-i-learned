@@ -7,6 +7,17 @@ collections:
     output: true
     permalink: /:collection/:name
 
+defaults:
+  - scope:
+      path: ""
+      type: "tils"
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 social-network-links:
   email: "danny@spesh.com"
   rss: true  
