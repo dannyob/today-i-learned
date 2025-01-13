@@ -1,3 +1,11 @@
+title: Danny O'Brien's Today I Learned
+author: Danny O'Brien <danny@spesh.com>
+theme: jekyll-theme-minimal
+
 collections:
   tils:
     output: true
+
+social-network-links:
+  email: "danny@spesh.com"
+  rss: true  
