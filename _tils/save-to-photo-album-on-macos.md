@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "Saving an image to MacOS Photo album"
 date: 2025-01-12
-category: Technical Review
 tags:
   - macOS
   - Swift
