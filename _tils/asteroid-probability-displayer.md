@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Simple asteroid impact probability display using Cloudflare Workers"
 date: 2025-02-24
 tags:
