@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "Simple asteroid impact probability display using Cloudflare Workers"
-date: 2025-02-24
+date: 2025-02-12
 tags:
   - JavaScript
   - Cloudflare
-  - NASA API
+  - NASA
 author: Danny O'Brien <danny@spesh.com>
 ---
 
