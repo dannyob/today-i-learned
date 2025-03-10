@@ -28,7 +28,15 @@ we got it working reliably. The script now downloads receipts with filenames in
 a consistent format (YYYY-MM-DD-26.44USD-tripid.pdf), making them easy to
 organize and process for accounting.
 
-Here's the [lastest, maintained code for the script](https://github.com/dannyob/uber-receipt-downloader/blob/main/uber-receipt-download.py)
+I used the [claude.ai](https://claude.ai/) desktop app with various MCP-servers
+and its [artifact
+feature](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
+to work on this. Artifacts now use line-by-line editing to make changes, so the
+Claude Web interface and desktop client doesn't necessarily re-output your code
+with every edit. This is about as big as I can get a Claude Sonnet 3.7-written
+program to get before it starts running out of context or getting confused.
+
+Here's the [latest, maintained code for the script](https://github.com/dannyob/uber-receipt-downloader/blob/main/uber-receipt-download.py)
 
 To use it, you need the Python jack-of-all-trades, `uv`, [installed](https://docs.astral.sh/uv/getting-started/installation/). 
 
