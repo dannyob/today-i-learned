@@ -28,10 +28,13 @@ we got it working reliably. The script now downloads receipts with filenames in
 a consistent format (YYYY-MM-DD-26.44USD-tripid.pdf), making them easy to
 organize and process for accounting.
 
-Here's the [complete code for the script](https://github.com/dannyob/uber-receipt-downloader/blob/main/uber-receipt-downloader.py).
-To use it, you need the Python jack-of-all-trades, `uv`, [installed](https://docs.astral.sh/uv/getting-started/installation/). Run your browser
-with remote debugging enabled (e.g., `chromium --remote-debugging-port=9222`), then
-run the script with your desired options:
+Here's the [lastest, maintained code for the script](https://github.com/dannyob/uber-receipt-downloader/blob/main/uber-receipt-download.py)
+
+To use it, you need the Python jack-of-all-trades, `uv`, [installed](https://docs.astral.sh/uv/getting-started/installation/). 
+
+Run your browser with remote debugging enabled (e.g., `chromium
+        --remote-debugging-port=9222`), then run the script with your desired
+options:
 
 ```bash
 # Download all available receipts
@@ -43,6 +46,8 @@ run the script with your desired options:
 # Download receipts from the last 30 days
 ./uber-receipt-downloader.py --days 30
 ```
+
+As the script mentions, Stack Overflow has [instructions for getting Chrome running with remote debugging working on MacOS and Windows](https://stackoverflow.com/questions/51563287/how-to-make-chrome-always-launch-with-remote-debugging-port-flag).
 
 ```python
 #!/usr/bin/env -S uv run
